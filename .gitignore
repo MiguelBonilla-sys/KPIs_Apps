@@ -1,0 +1,16 @@
+# Apps Script no genera archivos locales — este gitignore es por seguridad
+
+# Secretos (nunca en el repo)
+.env
+*.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Claude
+.claude/
